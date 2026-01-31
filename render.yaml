@@ -1,10 +1,11 @@
 services:
   - type: web
     name: chatapp
-    env: node
+    runtime: node
     plan: free
     buildCommand: npm install
     startCommand: node server.js
+    rootDir: .
     envVars:
       - key: NODE_ENV
         value: production
