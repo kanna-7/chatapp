@@ -1,0 +1,4 @@
+{
+  "name": "chatapp",
+  "description": "Real-time chat application with Node.js and Socket.io"
+}
